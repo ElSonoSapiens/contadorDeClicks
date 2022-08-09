@@ -1,0 +1,26 @@
+.SiNoContainer,
+.metodoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px
+}
+
+.metodoContent,
+.SiNoContent {
+  width: 180px;
+}
+
+.content {
+  display: flex;
+  font-size: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+input {
+  height: 50px;
+  width: 50px;
+}

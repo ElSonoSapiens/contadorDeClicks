@@ -1,6 +1,5 @@
-import { click } from '@testing-library/user-event/dist/click';
 import React from 'react';
-import { useState, useEffect } from 'react';
+import '../styles/Modulos.css';
 
 export const Metodos = ({ nombre }) => {
   let estadoInput = false;
@@ -15,11 +14,15 @@ export const Metodos = ({ nombre }) => {
       <span className="titulo">{nombre}</span>
       <div className="metodoContent">
         <div className="content">
-          <span>AstroPayBank</span>
+          <span>APayBank</span>
           <input type="checkbox" checked={estadoInput} onClick={anti()} />
         </div>
         <div className="content">
-          <span>AstroPayCard</span>
+          <span>APayCard</span>
+          <input type="checkbox" checked={estadoInput} onClick={anti()} />
+        </div>
+        <div className="content">
+          <span>VCréditos</span>
           <input type="checkbox" checked={estadoInput} onClick={anti()} />
         </div>
         <div className="content">
@@ -42,7 +45,7 @@ export const SiNo = ({ nombre }) => {
   return (
     <div className="SiNoContainer">
       <span className="titulo">{nombre}</span>
-      <div>
+      <div className="SiNoContent">
         <div className="content">
           <span>SI</span>
           <input type="checkbox" checked={estadoInput} onClick={anti()} />

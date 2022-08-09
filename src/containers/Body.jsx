@@ -18,11 +18,13 @@ const Body = () => {
   };
 
   return (
-    <div className="Body">
-      <div className="mainContainer">
+    <div className="mainContainer">
+      <div className="upperContainer">
         <Contador clicks={clicks} />
-        <Boton texto="Click" btnClick={true} manejarClick={manejarClick} />
-        <Boton texto="Reset" btnClick={false} manejarClick={reset} />
+        <div>
+        <Boton texto="OK" btnClick={true} manejarClick={manejarClick} />
+        <Boton texto="🧼" btnClick={false} manejarClick={reset} />
+        </div>
       </div>
       <Selects />
       <div className="triniContainer">

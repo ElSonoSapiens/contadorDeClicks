@@ -1,31 +1,19 @@
 .selectsContainer {
     width: 100vw;
     display: flex;
-    flex: 1 1;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
     margin: 1rem;
 }
 
-.metodos{
-display: flex;
-flex-direction: column;
-}
-
-.titulo{
-font-size: 35px;
-}
-.content{
+.metodos,
+.choises {
     display: flex;
-    font-size: 25px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px;
+    flex-direction: row;
 }
 
-input{
-height: 25px;
-width: 25px;
+.titulo {
+    font-size: 35px;
 }

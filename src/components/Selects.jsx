@@ -1,10 +1,6 @@
 import React from 'react';
 import '../styles/Selects.css';
-import { SiNo, Metodos, BtnUncheck } from './Modulos';
-
-const siNo = () => {
-  return <div>siNo</div>;
-};
+import { SiNo, Metodos } from './Modulos';
 
 const Selects = ({ manejarClick }) => {
   return (
@@ -15,7 +11,6 @@ const Selects = ({ manejarClick }) => {
       </div>
 
       <div className="choises">
-        <SiNo nombre="Loop" />
         <SiNo nombre="Wager" />
         <SiNo nombre="Duplicate" />
       </div>

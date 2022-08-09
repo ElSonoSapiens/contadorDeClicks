@@ -1,9 +1,7 @@
 .contador {
-  min-width: 20rem;
-  height: 10rem;
-  margin: 1rem;
-  padding: .25rem;
-  font-size: 8rem;
+  width: 320px;
+  height: 120px;
+  font-size: 100px;
   color: white;
   display: flex;
   align-items: center;
@@ -11,5 +9,5 @@
   border: 0.25rem solid white;
   border-radius: 1rem;
   background-color: #3f4553;
-
+  margin: 10px
 }
